@@ -1,5 +1,5 @@
 module.exports = function(deployer) {
-  deployer.deploy(ConvertLib);
+  deployer.deploy(Ownable);
+  deployer.deploy(Registrator);
   deployer.autolink();
-  deployer.deploy(MetaCoin);
 };

@@ -1,2 +1,7 @@
 syntax:glob
+
+# IDEs and code editors.
+/.vscode
+
+# Built resources.
 /build
