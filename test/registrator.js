@@ -16,4 +16,6 @@ contract('Registrator', function(accounts) {
       assert.notEqual(time.toNumber(), 0, "time mustn't be 0 for a registered record");
     });
   });
+
+  // TODO: Test if the person not owning the contract is able to store data there.
 });
