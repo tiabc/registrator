@@ -10,7 +10,7 @@ module.exports = {
     "images/": "images/"
   },
   rpc: {
-    host: "localhost",
+    host: "rpc_client",
     port: 8545
   }
 };

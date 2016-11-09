@@ -1,0 +1,12 @@
+registrator:
+  build: docker/registrator
+  volumes:
+    - .:/usr/src/app
+  links:
+    - rpc_client
+  working_dir: /usr/src/app
+  command: truffle serve
+  ports:
+    - "8080:8080"
+rpc_client:
+  build: docker/testrpc
